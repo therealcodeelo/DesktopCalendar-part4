@@ -118,8 +118,44 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="april_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\april_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="august_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\august_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="calendar_plus_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\calendar_plus_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="december_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\december_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="february_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\february_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="january_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\january_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="july_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\july_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="june_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\june_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="march_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\march_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="may_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\may_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="november_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\november_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="october_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\october_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="september_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\september_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="timesheet_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\timesheet_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

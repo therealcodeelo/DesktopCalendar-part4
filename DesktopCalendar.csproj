@@ -159,6 +159,42 @@
   <ItemGroup>
     <None Include="Resources\timesheet_40px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\october_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\november_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\december_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\january_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\may_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\june_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\february_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\march_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\april_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\july_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\august_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\september_40px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

@@ -36,10 +36,11 @@
             // 
             this.codeeloDateTimePicker1.BorderColor = System.Drawing.Color.Black;
             this.codeeloDateTimePicker1.BorderSize = 0;
+            this.codeeloDateTimePicker1.CalendarForeColor = System.Drawing.Color.Black;
             this.codeeloDateTimePicker1.Dock = System.Windows.Forms.DockStyle.Top;
             this.codeeloDateTimePicker1.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.codeeloDateTimePicker1.Location = new System.Drawing.Point(2, 2);
-            this.codeeloDateTimePicker1.MinimumSize = new System.Drawing.Size(0, 35);
+            this.codeeloDateTimePicker1.MinimumSize = new System.Drawing.Size(4, 35);
             this.codeeloDateTimePicker1.Name = "codeeloDateTimePicker1";
             this.codeeloDateTimePicker1.Size = new System.Drawing.Size(246, 35);
             this.codeeloDateTimePicker1.TabIndex = 0;
@@ -65,6 +66,7 @@
             this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.Controls.Add(this.codeeloGradientPanel1);
             this.Controls.Add(this.codeeloDateTimePicker1);
+            this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Name = "AppointmentViewPanel";
             this.Padding = new System.Windows.Forms.Padding(2);
             this.Size = new System.Drawing.Size(250, 450);

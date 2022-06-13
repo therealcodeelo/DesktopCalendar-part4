@@ -96,9 +96,9 @@ namespace DesktopCalendar
             this.AppointmentInfoPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.AppointmentInfoPanel.Controls.Add(this.appointmentViewPanel1);
             this.AppointmentInfoPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AppointmentInfoPanel.Location = new System.Drawing.Point(0, 72);
+            this.AppointmentInfoPanel.Location = new System.Drawing.Point(0, 42);
             this.AppointmentInfoPanel.Name = "AppointmentInfoPanel";
-            this.AppointmentInfoPanel.Size = new System.Drawing.Size(198, 518);
+            this.AppointmentInfoPanel.Size = new System.Drawing.Size(219, 548);
             this.AppointmentInfoPanel.TabIndex = 2;
             // 
             // MonthNavigationPanel
@@ -116,9 +116,9 @@ namespace DesktopCalendar
             this.MonthNavigationPanel.Controls.Add(this.FebruaryButton);
             this.MonthNavigationPanel.Controls.Add(this.JanuaryButton);
             this.MonthNavigationPanel.Dock = System.Windows.Forms.DockStyle.Right;
-            this.MonthNavigationPanel.Location = new System.Drawing.Point(198, 72);
+            this.MonthNavigationPanel.Location = new System.Drawing.Point(219, 42);
             this.MonthNavigationPanel.Name = "MonthNavigationPanel";
-            this.MonthNavigationPanel.Size = new System.Drawing.Size(162, 518);
+            this.MonthNavigationPanel.Size = new System.Drawing.Size(141, 548);
             this.MonthNavigationPanel.TabIndex = 1;
             // 
             // DecemberButton
@@ -128,13 +128,16 @@ namespace DesktopCalendar
             this.DecemberButton.FlatAppearance.BorderSize = 0;
             this.DecemberButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.DecemberButton.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.DecemberButton.Location = new System.Drawing.Point(0, 473);
+            this.DecemberButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.DecemberButton.Image = global::DesktopCalendar.Properties.Resources.december_40px;
+            this.DecemberButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.DecemberButton.Location = new System.Drawing.Point(0, 500);
             this.DecemberButton.Name = "DecemberButton";
-            this.DecemberButton.Padding = new System.Windows.Forms.Padding(60, 0, 0, 0);
-            this.DecemberButton.Size = new System.Drawing.Size(162, 45);
+            this.DecemberButton.Size = new System.Drawing.Size(141, 48);
             this.DecemberButton.TabIndex = 12;
             this.DecemberButton.Text = "Декабрь";
             this.DecemberButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.DecemberButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.DecemberButton.UseVisualStyleBackColor = false;
             // 
             // NovemberButton
@@ -144,13 +147,16 @@ namespace DesktopCalendar
             this.NovemberButton.FlatAppearance.BorderSize = 0;
             this.NovemberButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NovemberButton.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NovemberButton.Location = new System.Drawing.Point(0, 430);
+            this.NovemberButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.NovemberButton.Image = global::DesktopCalendar.Properties.Resources.november_40px;
+            this.NovemberButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.NovemberButton.Location = new System.Drawing.Point(0, 455);
             this.NovemberButton.Name = "NovemberButton";
-            this.NovemberButton.Padding = new System.Windows.Forms.Padding(60, 0, 0, 0);
-            this.NovemberButton.Size = new System.Drawing.Size(162, 43);
+            this.NovemberButton.Size = new System.Drawing.Size(141, 45);
             this.NovemberButton.TabIndex = 11;
             this.NovemberButton.Text = "Ноябрь";
             this.NovemberButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.NovemberButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.NovemberButton.UseVisualStyleBackColor = false;
             // 
             // OctoberButton
@@ -160,13 +166,16 @@ namespace DesktopCalendar
             this.OctoberButton.FlatAppearance.BorderSize = 0;
             this.OctoberButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.OctoberButton.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.OctoberButton.Location = new System.Drawing.Point(0, 387);
+            this.OctoberButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.OctoberButton.Image = global::DesktopCalendar.Properties.Resources.october_40px;
+            this.OctoberButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.OctoberButton.Location = new System.Drawing.Point(0, 409);
             this.OctoberButton.Name = "OctoberButton";
-            this.OctoberButton.Padding = new System.Windows.Forms.Padding(60, 0, 0, 0);
-            this.OctoberButton.Size = new System.Drawing.Size(162, 43);
+            this.OctoberButton.Size = new System.Drawing.Size(141, 46);
             this.OctoberButton.TabIndex = 10;
             this.OctoberButton.Text = "Октябрь";
             this.OctoberButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.OctoberButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.OctoberButton.UseVisualStyleBackColor = false;
             // 
             // SeptemberButton
@@ -176,13 +185,16 @@ namespace DesktopCalendar
             this.SeptemberButton.FlatAppearance.BorderSize = 0;
             this.SeptemberButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SeptemberButton.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.SeptemberButton.Location = new System.Drawing.Point(0, 344);
+            this.SeptemberButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.SeptemberButton.Image = global::DesktopCalendar.Properties.Resources.september_40px;
+            this.SeptemberButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.SeptemberButton.Location = new System.Drawing.Point(0, 364);
             this.SeptemberButton.Name = "SeptemberButton";
-            this.SeptemberButton.Padding = new System.Windows.Forms.Padding(60, 0, 0, 0);
-            this.SeptemberButton.Size = new System.Drawing.Size(162, 43);
+            this.SeptemberButton.Size = new System.Drawing.Size(141, 45);
             this.SeptemberButton.TabIndex = 9;
             this.SeptemberButton.Text = "Сентябрь";
             this.SeptemberButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.SeptemberButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.SeptemberButton.UseVisualStyleBackColor = false;
             // 
             // AugustButton
@@ -192,13 +204,16 @@ namespace DesktopCalendar
             this.AugustButton.FlatAppearance.BorderSize = 0;
             this.AugustButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AugustButton.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.AugustButton.Location = new System.Drawing.Point(0, 301);
+            this.AugustButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.AugustButton.Image = global::DesktopCalendar.Properties.Resources.august_40px;
+            this.AugustButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.AugustButton.Location = new System.Drawing.Point(0, 318);
             this.AugustButton.Name = "AugustButton";
-            this.AugustButton.Padding = new System.Windows.Forms.Padding(60, 0, 0, 0);
-            this.AugustButton.Size = new System.Drawing.Size(162, 43);
+            this.AugustButton.Size = new System.Drawing.Size(141, 46);
             this.AugustButton.TabIndex = 8;
             this.AugustButton.Text = "Август";
             this.AugustButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.AugustButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.AugustButton.UseVisualStyleBackColor = false;
             // 
             // JuleButton
@@ -208,13 +223,16 @@ namespace DesktopCalendar
             this.JuleButton.FlatAppearance.BorderSize = 0;
             this.JuleButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.JuleButton.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.JuleButton.Location = new System.Drawing.Point(0, 258);
+            this.JuleButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.JuleButton.Image = global::DesktopCalendar.Properties.Resources.july_40px;
+            this.JuleButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.JuleButton.Location = new System.Drawing.Point(0, 273);
             this.JuleButton.Name = "JuleButton";
-            this.JuleButton.Padding = new System.Windows.Forms.Padding(60, 0, 0, 0);
-            this.JuleButton.Size = new System.Drawing.Size(162, 43);
+            this.JuleButton.Size = new System.Drawing.Size(141, 45);
             this.JuleButton.TabIndex = 7;
             this.JuleButton.Text = "Июль";
             this.JuleButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.JuleButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.JuleButton.UseVisualStyleBackColor = false;
             // 
             // JuneButton
@@ -224,13 +242,16 @@ namespace DesktopCalendar
             this.JuneButton.FlatAppearance.BorderSize = 0;
             this.JuneButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.JuneButton.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.JuneButton.Location = new System.Drawing.Point(0, 215);
+            this.JuneButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.JuneButton.Image = global::DesktopCalendar.Properties.Resources.june_40px;
+            this.JuneButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.JuneButton.Location = new System.Drawing.Point(0, 227);
             this.JuneButton.Name = "JuneButton";
-            this.JuneButton.Padding = new System.Windows.Forms.Padding(60, 0, 0, 0);
-            this.JuneButton.Size = new System.Drawing.Size(162, 43);
+            this.JuneButton.Size = new System.Drawing.Size(141, 46);
             this.JuneButton.TabIndex = 6;
             this.JuneButton.Text = "Июнь";
             this.JuneButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.JuneButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.JuneButton.UseVisualStyleBackColor = false;
             // 
             // MayButton
@@ -240,13 +261,16 @@ namespace DesktopCalendar
             this.MayButton.FlatAppearance.BorderSize = 0;
             this.MayButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MayButton.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.MayButton.Location = new System.Drawing.Point(0, 172);
+            this.MayButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.MayButton.Image = global::DesktopCalendar.Properties.Resources.may_40px;
+            this.MayButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.MayButton.Location = new System.Drawing.Point(0, 182);
             this.MayButton.Name = "MayButton";
-            this.MayButton.Padding = new System.Windows.Forms.Padding(60, 0, 0, 0);
-            this.MayButton.Size = new System.Drawing.Size(162, 43);
+            this.MayButton.Size = new System.Drawing.Size(141, 45);
             this.MayButton.TabIndex = 5;
             this.MayButton.Text = "Май";
             this.MayButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.MayButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.MayButton.UseVisualStyleBackColor = false;
             // 
             // AprilButton
@@ -256,13 +280,16 @@ namespace DesktopCalendar
             this.AprilButton.FlatAppearance.BorderSize = 0;
             this.AprilButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AprilButton.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.AprilButton.Location = new System.Drawing.Point(0, 129);
+            this.AprilButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.AprilButton.Image = global::DesktopCalendar.Properties.Resources.april_40px;
+            this.AprilButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.AprilButton.Location = new System.Drawing.Point(0, 136);
             this.AprilButton.Name = "AprilButton";
-            this.AprilButton.Padding = new System.Windows.Forms.Padding(60, 0, 0, 0);
-            this.AprilButton.Size = new System.Drawing.Size(162, 43);
+            this.AprilButton.Size = new System.Drawing.Size(141, 46);
             this.AprilButton.TabIndex = 4;
             this.AprilButton.Text = "Апрель";
             this.AprilButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.AprilButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.AprilButton.UseVisualStyleBackColor = false;
             // 
             // MarchButton
@@ -272,13 +299,16 @@ namespace DesktopCalendar
             this.MarchButton.FlatAppearance.BorderSize = 0;
             this.MarchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MarchButton.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.MarchButton.Location = new System.Drawing.Point(0, 86);
+            this.MarchButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.MarchButton.Image = global::DesktopCalendar.Properties.Resources.march_40px;
+            this.MarchButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.MarchButton.Location = new System.Drawing.Point(0, 91);
             this.MarchButton.Name = "MarchButton";
-            this.MarchButton.Padding = new System.Windows.Forms.Padding(60, 0, 0, 0);
-            this.MarchButton.Size = new System.Drawing.Size(162, 43);
+            this.MarchButton.Size = new System.Drawing.Size(141, 45);
             this.MarchButton.TabIndex = 3;
             this.MarchButton.Text = "Март";
             this.MarchButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.MarchButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.MarchButton.UseVisualStyleBackColor = false;
             // 
             // FebruaryButton
@@ -288,13 +318,16 @@ namespace DesktopCalendar
             this.FebruaryButton.FlatAppearance.BorderSize = 0;
             this.FebruaryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.FebruaryButton.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.FebruaryButton.Location = new System.Drawing.Point(0, 43);
+            this.FebruaryButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.FebruaryButton.Image = global::DesktopCalendar.Properties.Resources.february_40px;
+            this.FebruaryButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.FebruaryButton.Location = new System.Drawing.Point(0, 45);
             this.FebruaryButton.Name = "FebruaryButton";
-            this.FebruaryButton.Padding = new System.Windows.Forms.Padding(60, 0, 0, 0);
-            this.FebruaryButton.Size = new System.Drawing.Size(162, 43);
+            this.FebruaryButton.Size = new System.Drawing.Size(141, 46);
             this.FebruaryButton.TabIndex = 2;
             this.FebruaryButton.Text = "Февраль";
             this.FebruaryButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.FebruaryButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.FebruaryButton.UseVisualStyleBackColor = false;
             // 
             // JanuaryButton
@@ -304,13 +337,16 @@ namespace DesktopCalendar
             this.JanuaryButton.FlatAppearance.BorderSize = 0;
             this.JanuaryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.JanuaryButton.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.JanuaryButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.JanuaryButton.Image = global::DesktopCalendar.Properties.Resources.january_40px;
+            this.JanuaryButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.JanuaryButton.Location = new System.Drawing.Point(0, 0);
             this.JanuaryButton.Name = "JanuaryButton";
-            this.JanuaryButton.Padding = new System.Windows.Forms.Padding(60, 0, 0, 0);
-            this.JanuaryButton.Size = new System.Drawing.Size(162, 43);
+            this.JanuaryButton.Size = new System.Drawing.Size(141, 45);
             this.JanuaryButton.TabIndex = 1;
             this.JanuaryButton.Text = "Январь";
             this.JanuaryButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.JanuaryButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.JanuaryButton.UseVisualStyleBackColor = false;
             // 
             // YearNavigationPanel
@@ -322,7 +358,7 @@ namespace DesktopCalendar
             this.YearNavigationPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.YearNavigationPanel.Location = new System.Drawing.Point(0, 0);
             this.YearNavigationPanel.Name = "YearNavigationPanel";
-            this.YearNavigationPanel.Size = new System.Drawing.Size(360, 72);
+            this.YearNavigationPanel.Size = new System.Drawing.Size(360, 42);
             this.YearNavigationPanel.TabIndex = 0;
             // 
             // YearButton
@@ -332,9 +368,10 @@ namespace DesktopCalendar
             this.YearButton.FlatAppearance.BorderSize = 0;
             this.YearButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.YearButton.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.YearButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.YearButton.Location = new System.Drawing.Point(75, 0);
             this.YearButton.Name = "YearButton";
-            this.YearButton.Size = new System.Drawing.Size(210, 72);
+            this.YearButton.Size = new System.Drawing.Size(210, 42);
             this.YearButton.TabIndex = 2;
             this.YearButton.Text = "ГОД";
             this.YearButton.UseVisualStyleBackColor = false;
@@ -346,9 +383,10 @@ namespace DesktopCalendar
             this.PreviousYearButton.FlatAppearance.BorderSize = 0;
             this.PreviousYearButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PreviousYearButton.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PreviousYearButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.PreviousYearButton.Location = new System.Drawing.Point(0, 0);
             this.PreviousYearButton.Name = "PreviousYearButton";
-            this.PreviousYearButton.Size = new System.Drawing.Size(75, 72);
+            this.PreviousYearButton.Size = new System.Drawing.Size(75, 42);
             this.PreviousYearButton.TabIndex = 1;
             this.PreviousYearButton.Text = "<<";
             this.PreviousYearButton.UseVisualStyleBackColor = false;
@@ -361,9 +399,10 @@ namespace DesktopCalendar
             this.NextYearButton.FlatAppearance.BorderSize = 0;
             this.NextYearButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NextYearButton.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NextYearButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.NextYearButton.Location = new System.Drawing.Point(285, 0);
             this.NextYearButton.Name = "NextYearButton";
-            this.NextYearButton.Size = new System.Drawing.Size(75, 72);
+            this.NextYearButton.Size = new System.Drawing.Size(75, 42);
             this.NextYearButton.TabIndex = 0;
             this.NextYearButton.Text = ">>";
             this.NextYearButton.UseVisualStyleBackColor = false;
@@ -387,10 +426,11 @@ namespace DesktopCalendar
             // 
             this.appointmentViewPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
             this.appointmentViewPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.appointmentViewPanel1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.appointmentViewPanel1.Location = new System.Drawing.Point(0, 0);
             this.appointmentViewPanel1.Name = "appointmentViewPanel1";
             this.appointmentViewPanel1.Padding = new System.Windows.Forms.Padding(2);
-            this.appointmentViewPanel1.Size = new System.Drawing.Size(198, 518);
+            this.appointmentViewPanel1.Size = new System.Drawing.Size(219, 548);
             this.appointmentViewPanel1.TabIndex = 0;
             // 
             // MainForm

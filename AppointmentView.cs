@@ -65,8 +65,8 @@ namespace DesktopCalendar
                 label1.Text = "Выполнено: " + _appointment.Result + Environment.NewLine + label1.Text;
             }
 
-            var titleHeight = TextRenderer.MeasureText(title, new Font("Bahnschrift", 13f), new Size(198, 30), TextFormatFlags.WordBreak).Height;
-            var descriptionHeight = TextRenderer.MeasureText(description, new Font("Bahnschrift", 10f), new Size(198, 60), TextFormatFlags.WordBreak).Height;
+            var titleHeight = TextRenderer.MeasureText(title, new Font("Bahnschrift", 13f), new Size(210, 30), TextFormatFlags.WordBreak).Height;
+            var descriptionHeight = TextRenderer.MeasureText(description, new Font("Bahnschrift", 10f), new Size(210, 60), TextFormatFlags.WordBreak).Height;
 
             descriptionHeight = descriptionHeight > 100 ? descriptionHeight + 60 : descriptionHeight + 30;
             titleHeight = titleHeight > 20 ? titleHeight + 40 : titleHeight + 20;
